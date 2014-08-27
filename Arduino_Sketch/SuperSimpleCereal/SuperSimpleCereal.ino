@@ -21,6 +21,8 @@ void loop() {
     }
 }
 
+// Note that 'numCharRead' is not used (yet).
+// It will be used later for simple command validation.
 int processCommands(int numCharRead ) {
     switch(incomingData[1]) {
         
